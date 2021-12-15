@@ -1,10 +1,11 @@
+//tolltip
 $(function () {
   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
   });
 });
-//Navbar
+//Barra navbar
 var nav = document.querySelector('nav');
       window.addEventListener('scroll', function () {
         if (window.pageYOffset > 500) {
@@ -29,7 +30,7 @@ $('.card-img3').click(function () {
 $('.card-img4').click(function () {
   $('.card-text4').toggle();
 });
-  //Botones
+  //Enviar contacto
   $('.btn').click(function () {
     alert("Te contactaremos pronto!")
   });
