@@ -27,6 +27,9 @@ h3 {
 .btn {
     font-family: 'Cookie', cursive;
 }
+a {
+    text-decoration: none;
+}
 /* Footer*/
 .footer {  
     margin-right: 20%; 

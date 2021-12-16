@@ -30,7 +30,4 @@ $('.card-img3').click(function () {
 $('.card-img4').click(function () {
   $('.card-text4').toggle();
 });
-  //Enviar contacto
-  $('.btn').click(function () {
-    alert("Te contactaremos pronto!")
-  });
+ 
