@@ -18,6 +18,9 @@ h3 {
     font-family: 'Merienda', cursive;
     font-size: 250%;
 }
+.card {
+    width: 100%;
+}
 /* Contacto*/
 .form-group {
     font-family: 'Cookie', cursive;
